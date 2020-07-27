@@ -1,6 +1,6 @@
-# Product Name
+# PedrokFlix - a Netflix Clone?
 
-> Short blurb about what your product does.
+> Netflix clone using React js and styled-components.
 
 [![NPM Version][npm-image]][npm-url]
 
