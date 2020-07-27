@@ -14,15 +14,10 @@ export default function App() {
         url={Data.categorias[0].videos[0].url}
         videoDescription={"React é facil, eles disseram!"}
       />
-      <Carousel ignoreFirstVideo category={Data.categorias[0]} />
-
-      <Carousel category={Data.categorias[1]} />
-
-      <Carousel category={Data.categorias[2]} />
-
-      <Carousel category={Data.categorias[3]} />
-
       <Carousel category={Data.categorias[4]} />
+      <Carousel ignoreFirstVideo category={Data.categorias[0]} />
+      <Carousel category={Data.categorias[1]} />
+      <Carousel category={Data.categorias[2]} />
 
       <Footer />
     </div>
