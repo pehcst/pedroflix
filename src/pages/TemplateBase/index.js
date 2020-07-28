@@ -5,10 +5,10 @@ import { Main } from "./style";
 
 export default function TemplateBase(props) {
   return (
-    <div>
+    <>
       <Menu />
       <Main>{props.children}</Main>
       <Footer />
-    </div>
+    </>
   );
 }
