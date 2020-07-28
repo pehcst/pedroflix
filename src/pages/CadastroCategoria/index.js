@@ -6,6 +6,11 @@ export default function CadastroCategoria() {
   return (
     <TemplateBase>
       <h1>Cadastro de Categoria</h1>
+      <form>
+        <label for="nm_categoria">Nome da Categoria</label>
+        <input type="text"></input>
+        <button>Cadastrar</button>
+      </form>
       <Link to="/"> Home </Link>
     </TemplateBase>
   );
